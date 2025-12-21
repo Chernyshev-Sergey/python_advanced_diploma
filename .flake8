@@ -4,3 +4,4 @@ ignore = LN001
 ignore = B008
 ignore = LN002
 ignore = PIE786
+ignore = E701
