@@ -1,3 +1,6 @@
 [flake8]
 ignore = E501
 ignore = LN001
+ignore = B008
+ignore = LN002
+ignore = PIE786
