@@ -21,11 +21,11 @@ jobs:
       - name: black
         run: black  py_adv_diploma_for_github/server/app_tweets/
       - name: isort
-      #   run: isort --profile black py_adv_diploma_for_github/server/app_tweets/
-      # - name: mypy
-        run: mypy py_adv_diploma_for_github/server/app_tweets/ 
+        run: isort --profile black py_adv_diploma_for_github/server/app_tweets/ 
       - name: flake
-        run: flake8 py_adv_diploma_for_github/server/app_tweets/ 
+        run: flake8 py_adv_diploma_for_github/server/app_tweets/
+      - name: mypy
+        run: mypy py_adv_diploma_for_github/server/app_tweets/
       # - name: test_httpx
       #   run: python hw1/test_main.py  
         
