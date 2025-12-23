@@ -1,7 +1,2 @@
 [flake8]
-ignore = E501
-ignore = LN001
-ignore = B008
-ignore = LN002
-ignore = PIE786
-ignore = E701
+ignore = E501, LN001, LN002, B008, PIE786, E701
