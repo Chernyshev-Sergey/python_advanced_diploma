@@ -45,14 +45,14 @@
 
    URL: /api/users/{id}/follow Method: POST
 
-    Вводится id followera и имя того кому подписывается этот follower
+    Вводится id followera и имя того к кому подписывается этот follower
 
 
 7. Удаление Follower
 
    URL: /api/users/{id}/follow Method: DELETE
 
-    Вводится id followera и имя того кому подписывается этот follower
+    Вводится id followera и имя того к кому подписывается этот follower
 
 
 8. Получение списка твитов
